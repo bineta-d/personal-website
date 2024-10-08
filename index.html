@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="milestone" content="Portfolio" />
+    <!-- TODO: Replace this with your title -->
+    <title>Bineta Diatta</title>
+    <!-- 
+      TODO: Add Bootstrap CSS link tag from: -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+    <!-- 
+      TODO: Add Bootstrap Icons link tag from: 
+      https://icons.getbootstrap.com/
+      (Remember, the CDN link is towards the bottom of the page!)
+    -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <!-- Custom styles (these can extend the default Bootstrap styles) -->
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <!-- TODO: Paste Navbar code and customize links -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" style="background-color: #da7b93">
+            <div class="container-fluid" style="background-color: #da7b93">
+                <i class="bi bi-code-slash"></i>
+                <a class="navbar-brand" href="#" style="background-color: #da7b93">Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-section">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#project-section">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills-section">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-section">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Hero section -->
+        <section id="hero-section">
+            <header id="home" class="intro-container ">
+                <div class=" container intro mx-auto">
+                    <img src="img/headshot.jpg" class="rounded-circle headshot border border-secondary border-5"
+                        alt="..." />
+                    <h1 id="title">
+                        <span>Bineta Diatta</span>
+                    </h1>
+                    <p>
+                        "The mind is not a vessel to be filled, but a fire to be kindled."
+                    </p>
+                </div>
+            </header>
+        </section>
+
+        <!-- Mission/Meet-me section -->
+        <section id="about-section">
+            <h1 class="text-center">About Me</h1>
+            <div class=" container about text-center mx-auto" style="margin: 0;">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad autem
+                    quaerat nam. Corporis inventore nam a, animi aliquid, consequuntur
+                    placeat perspiciatis quisquam laudantium natus sequi quaerat
+                    deserunt ut quos quis! Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Deleniti, distinctio. Minima recusandae deserunt
+                    excepturi sit voluptate odit at numquam officiis, illum
+                    necessitatibus quasi voluptatibus fuga aliquam magni nulla quam
+                    cupiditate.
+                </p>
+            </div>
+        </section>
+
+        <!-- Skills section -->
+        <section id="skills-section">
+            <div class="container text-center skills-container mx-auto">
+                <h1>Skills</h1>
+                <div class="row skill-cards d-flex justify-content-center" style="width: 100%; overflow-x: scroll;">
+                    <!-- skill 1 -->
+                    <div class="card col-3" style="width: 10rem" h-5>
+                        <img src="img2/html100.png" class="card-img-top" alt="..." />
+
+                    </div>
+                    <!-- SKill 2 -->
+                    <div class="card col-3 " style="width: 10rem">
+                        <img src="img2/css100.png" class="card-img-top css-img" alt="..." />
+                    </div>
+                    <!-- SKill 3 -->
+
+                    <div class="card col-3" style="width: 10rem;">
+                        <img src="img2/js.png" class="card-img-top" alt="..." />
+                    </div>
+                    <!-- SKill 4 -->
+                    <div class="card col-3" style="width: 10rem">
+                        <img src="img2/react.png" class="card-img-top" alt="..." />
+                    </div>
+                    <!-- SKill 5 -->
+                    <div class="card col-3" style="width: 10rem">
+                        <img src="img2/bootstrap.png" class="card-img-top bootstrap-img" alt="..."
+                            style="border-radius: 15px;" />
+
+                    </div>
+
+                    <!-- SKill 6 -->
+                    <div class="card col-3" style="width: 10rem">
+                        <img src="img2/gitt.png" class="card-img-top git-img" alt="..." style="border-radius: 15px" />
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Section  -->
+        <section id="project-section">
+            <div class="container text-center mx-auto">
+                <h1>Projects</h1>
+                <div class=" container container-xl project-cards d-grid justify-content-center "
+                    style="white-space: nowrap; padding: 1rem 1rem;">
+                    <!-- Project 1 -->
+                    <div class="card col-3  " style="width: 15rem ; display: inline-block; margin-right: 1rem;">
+                        <img src="img2/css.png" class="card-img-top css-img" alt="..." />
+                        <div class="card-body">
+                            <p class="card-text">Financial<br>Literacy</p>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="card col-3  " style="width: 15rem ; display: inline-block; margin-right: 1rem;">
+                        <img src="img2/css.png" class="card-img-top css-img" alt="..." />
+                        <div class="card-body">
+                            <p class="card-text">Harmony<br>Haven</p>
+                        </div>
+                    </div>
+                    <!-- Project 3 -->
+
+                    <div class="card col-3 col" style="width: 15rem ; display: inline-block; margin-right: 1rem;">
+                        <img src="img2/js.png" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <p class="card-text">Virtual <br>Library</p>
+                        </div>
+                    </div>
+                    0
+
+                </div>
+
+        </section>
+
+
+        <section #mission-section>
+            <h1 class="text-center">Mission</h1>
+            <div class="container text-center mission-section mx-auto">
+                <div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo impedit itaque dolorem dolor, ex,
+                        exercitationem delectus suscipit necessitatibus nisi voluptatum ad iste animi, aliquid
+                        perferendis rem sunt
+                        doloremque. Quia, dolorem!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact-section">
+            <h1 class="text-center">Contact Me</h1>
+            <div class="container text-center d-flex justify-content-center contact-section mx-auto">
+                <div>
+
+                    <a href="mailto:bineta.diatta21@gmail.com"><img src="img2/maill.png" /></a>
+
+                    <a href="https://www.linkedin.com/in/bineta-d-394813218/" target="_blank"><img src="img2/lnk.png"
+                            class="linked-img" /></a>
+                    <a href="https://www.instagram.com/og_bineta_/" target="_blank"><img src="img2/insta.png"
+                            alt="/"></a>
+                </div>
+
+            </div>
+            <div class="container d-inline-flex justify-content-center">
+                <!-- <div class="form-floating">
+          <textarea class="form-control" placeholder="Send me a message" id="floatingTextarea2"
+            style="height: 100px; width: 30vw"></textarea>
+          <label for="floatingTextarea2"></label>
+        </div>
+        <button type="button" class="btn" style="">Send</button> -->
+            </div>
+        </section>
+    </div>
+    <!-- Footer section -->
+    <section id="footer-section">
+        <div class="footer mx-auto" style="
+          background-color: #da7b93;
+          text-align: center;
+          align-items: center;
+        ">
+            <h4>&copy Bineta Diatta 2024</h4>
+        </div>
+    </section>
+
+    <!-- 
+      TODO: Paste Bootstrap JavaScript script tag from:
+      https://getbootstrap.com/
+    -->
+</body>
+
+</html>
